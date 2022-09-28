@@ -1,0 +1,25 @@
+{
+  "name": "virtual_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "faker": "^5.5.3",
+    "heroku": "^7.63.4",
+    "joi": "^17.6.1",
+    "nodemon": "^2.0.20"
+  },
+  "engines":{
+    "node": "16x"
+  }
+  
+}
